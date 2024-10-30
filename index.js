@@ -1,4 +1,4 @@
-const id="d35ef8424c8f4c27f5c583de11c53e72"
+const id="enter your api key"
 let url="https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 async function getdata(city){
 
