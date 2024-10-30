@@ -1,10 +1,8 @@
-//d35ef8424c8f4c27f5c583de11c53e72
-//https://api.openweathermap.org/data/2.5/weather?q=delhi&units=metric&APPID=d35ef8424c8f4c27f5c583de11c53e72
-const api="d35ef8424c8f4c27f5c583de11c53e72"
+const id="d35ef8424c8f4c27f5c583de11c53e72"
 let url="https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 async function getdata(city){
 
-    let x = await fetch(url+city+"&appid="+api);
+    let x = await fetch(url+city+"&appid="+id);
     let data = await x.json()
     /*if (!x.ok){
         document.querySelector("#error").style.display="block"
